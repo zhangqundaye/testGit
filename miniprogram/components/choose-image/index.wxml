@@ -1,0 +1,6 @@
+<view class="container">
+    <view class="img-box box">
+
+    </view>
+    <view class="add-box box"></view>
+</view>

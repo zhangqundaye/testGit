@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "v-progress":"../../components/progress/index"
+  },
+  "navigationBarBackgroundColor": "#FF0000",
+  "navigationBarTextStyle": "white"
+}

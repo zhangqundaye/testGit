@@ -1,0 +1,8 @@
+<view class="container">
+    <view class="index my-class">{{index}}</view>
+    <view class="name">
+        <view class="name-music my-class">{{musicInfo.name}}</view>
+        <view class="name-film my-class">{{musicInfo.alia[0] ? musicInfo.alia[0]:""}}</view>
+    </view>
+    <view class="autor my-class">{{musicInfo.ar[0].name}}-{{musicInfo.al.name}}</view>
+</view>

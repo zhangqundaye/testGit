@@ -1,0 +1,48 @@
+{
+    "pages": [
+        "pages/playlist/playlist",
+        "pages/blog/blog",
+        "pages/profile/profile",
+        "pages/musiclist/musiclist",
+        "pages/musicplay/musicplay",
+        "pages/blog-edit/blog-edit"
+        
+    ],
+    "window": {
+        "backgroundColor": "#F6F6F6",
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#F6F6F6",
+        "navigationBarTitleText": "音乐",
+        "navigationBarTextStyle": "white"
+    },
+    "requiredBackgroundModes": ["audio", "location"],
+    "tabBar": {
+        "color": "#474747",
+        "selectedColor": "#d43c43",
+        "list": [
+            {
+                "pagePath": "pages/playlist/playlist",
+                "text": "音乐",
+                "iconPath": "images/music1.png",
+                "selectedIconPath": "images/music2.png"
+            },
+            {
+                "pagePath": "pages/blog/blog",
+                "text": "发现",
+                "iconPath": "images/find1.png",
+                "selectedIconPath": "images/find2.png"
+            },
+            {
+                "pagePath": "pages/profile/profile",
+                "text": "我的",
+                "iconPath": "images/my1.png",
+                "selectedIconPath": "images/my2.png"
+            }
+        ]
+    },
+    "useExtendedLib": {
+        "weui": true
+      },
+    "sitemapLocation": "sitemap.json",
+    "style": "v2"
+}

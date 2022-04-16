@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "v-music":"../../components/musicBox/index"
+  },
+  "navigationBarBackgroundColor": "#FF0000",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle":"dark"
+}

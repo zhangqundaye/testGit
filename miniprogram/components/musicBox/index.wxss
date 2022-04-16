@@ -1,0 +1,42 @@
+.container {
+    height: 350rpx;
+    width: 230rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.pic-url {
+    width: 100%;
+    height: 70%;
+    border-radius: 8px;
+}
+
+.music-name {
+    height: 30%;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 25rpx;
+    margin-top: 10px;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.play-count{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: flex;
+    align-items: center;
+}
+.play-count image{
+    height: 30rpx;
+    width: 30rpx;
+}
+.play-count text{
+    margin-left: 10rpx;
+    color: white;
+    font-size: 25rpx;
+}

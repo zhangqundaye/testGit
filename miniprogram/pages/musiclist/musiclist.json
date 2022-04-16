@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "v-musiclist": "/components/musiclist/index"
+  },
+  "navigationBarBackgroundColor": "#FF0000",
+  "navigationBarTextStyle": "white"
+}

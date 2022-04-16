@@ -1,0 +1,20 @@
+<!-- 针 -->
+<view class="backImg" style="background-image:url({{playInfo.al.picUrl}})"></view>
+<!-- 遮罩层 -->
+<view class="mask"></view>
+<!-- 圆盘 -->
+<view class="container {{playing?'play':''}}">
+    <view class="back">
+        <image src="{{playInfo.al.picUrl}}"></image>
+    </view>
+</view>
+<!-- 进度条 -->
+<view class="progress">
+    <v-progress></v-progress>
+</view>
+<!-- 控制器 -->
+<view class="control">
+<icon class="iconfont icon-diyiyeshouyeshangyishou" bindtap="onPrev"></icon>
+<icon class="iconfont {{playing?'icon-zanting':'icon-bofang'}}" bindtap="onPlay"></icon>
+<icon class="iconfont icon-zuihouyiyemoyexiayishou" bindtap="onNext"></icon>
+</view>

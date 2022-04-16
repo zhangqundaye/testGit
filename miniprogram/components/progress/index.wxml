@@ -1,0 +1,6 @@
+<view class="container">
+  <text class="text">{{time.currentTime}}</text>
+  <slider block-size='18' class="bar" value="{{currentValue}}"/>
+  <text class="text">{{time.totalTime}}</text>
+
+</view>

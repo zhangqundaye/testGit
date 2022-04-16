@@ -1,0 +1,15 @@
+<!-- 编辑区 -->
+<view class="container">
+  <!-- 文字区 -->
+  <textarea model:value="{{word}}" placeholder="请输入有趣的事..." maxlength="140" bindfocus="onFocus" bindblur="onBlur"
+    auto-focus="{{true}}"></textarea>
+  <!-- 选择图片 -->
+  <v-image />
+  
+</view>
+
+<!-- 发布按钮 -->
+<view class="floor" style="bottom:{{floorBottom}}px">
+  <text>{{wordsNum}}</text>
+  <view>发布</view>
+</view>

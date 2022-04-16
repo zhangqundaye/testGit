@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "v-image":"/components/choose-image/index"
+  },
+  "navigationBarBackgroundColor": "#FF0000",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "发布"
+}

@@ -1,0 +1,36 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "db guide",
+          "pathName": "pages/databaseGuide/databaseGuide",
+          "query": ""
+        },
+        {
+          "name": "pages/blog/blog",
+          "pathName": "pages/blog/blog",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/blog-edit/blog-edit",
+          "pathName": "pages/blog-edit/blog-edit",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

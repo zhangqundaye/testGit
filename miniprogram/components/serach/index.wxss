@@ -1,0 +1,46 @@
+@import "iconfont.wxss";
+
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 70rpx;
+  justify-content: space-between;
+  position: relative;
+  padding: 0 20rpx;
+}
+
+.container .icon-sousuo {
+  font-size: 45rpx;
+  position: absolute;
+  vertical-align: middle;
+  margin-left: 20rpx;
+  color: #D3D3D3;
+}
+
+.container input {
+  flex: 1;
+  height: 100%;
+  background-color: #F5F5F5;
+  padding: 0 70rpx;
+  margin-right: 30rpx;
+  border-radius: 15rpx;
+  color: black;
+}
+
+.container .btn {
+  height: 70rpx;
+  background-color: red;
+  line-height: 70rpx;
+  width: 130rpx;
+  text-align: center;
+  border-radius: 15rpx;
+  color: white;
+  font-size: 0.9rem;
+}
+.placeholder-class{
+  font-size: 0.9rem;
+  color: #D3D3D3;
+}

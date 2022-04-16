@@ -1,0 +1,5 @@
+<page-container show="{{show}}" position="bottom" overlay="{{true}}" overlay-style="z-index:999" custom-style="z-index:999">
+  <view class="container">
+    <button bindtap="onTap">{{content}}</button>
+  </view>
+</page-container>

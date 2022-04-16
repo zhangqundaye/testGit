@@ -1,0 +1,10 @@
+<view class="head">
+    <image class="backImg" src="{{imgUrl}}" mode="widthFix"></image>
+    <view class="textImg">
+        <image src="{{imgUrl}}"></image>
+        <text>{{musicName}}</text>
+    </view>
+</view>
+<block wx:for="{{musiclist}}" wx:key="id">
+    <v-musiclist my-class="{{selectId == item.id?'select':''}}" musicInfo="{{item}}" index="{{index+1}}" data-id="{{item.id}}" bindtap="onTap"/>
+</block>

@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "v-search":"/components/serach/index",
+    "v-popup":"/components/popup/index"
+  },
+  "navigationBarBackgroundColor": "#FF0000",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "发现"
+}

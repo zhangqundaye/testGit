@@ -1,0 +1,43 @@
+.container{
+  box-sizing: border-box;
+  padding: 20rpx;
+  height: 100vh;
+
+}
+.container textarea{
+  width: 100%;
+}
+.seclec-box{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 250rpx;
+  width: 250rpx;
+  border: 1px dashed darkgrey;
+}
+.seclec-box .icon-jiahao{
+  font-size: 60rpx;
+  color: darkgray;
+}
+
+.floor{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  height: 80rpx;
+  width: 100%;
+}
+.floor view{
+margin-left: 30rpx;
+background-color: red;
+height: 100%;
+width: 140rpx;
+text-align: center;
+line-height: 80rpx;
+font-size: 0.9rem;
+font-weight: bold;
+}

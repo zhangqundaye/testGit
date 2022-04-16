@@ -1,0 +1,118 @@
+page {
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.backImg {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.mask {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container::before {
+    content: '';
+    background-image: url(https://s3.music.126.net/m/s/img/needle.png?702cf6d95f29e2e594f53a3caab50e12);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain;
+    height: 300rpx;
+    width: 50%;
+    display: block;
+    position: absolute;
+    top: -20rpx;
+    left: 330rpx;
+    /* transition: transform 0.5s ease; */
+    transform: rotate(0deg);
+    transform-origin: left top;
+    z-index: 99;
+}
+
+.play.container::before {
+    transform: rotate(15deg);
+    transform-origin: left top;
+    transition: transform 0.5s linear;
+
+}
+@keyframes move {
+    from {
+        transform: rotate(0deg);
+        transform-origin: center center;
+    }
+
+    to {
+        transform: rotate(365deg);
+        transform-origin: center center;
+    }
+}
+
+.back {
+    background-image: url(https://s3.music.126.net/mobile-new/img/disc.png?d3bdd1080a72129346aa0b4b4964b75f=);
+    height: 596rpx;
+    width: 596rpx;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 220rpx auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: move 2s linear infinite;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+}
+.play.container .back {
+    /* animation: move 2s linear infinite; */
+    animation-play-state: running;
+    
+}
+.back image {
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+}
+
+.control {
+    position: absolute;
+    bottom: 40rpx;
+    left: 50%;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateX(-50%);
+
+}
+
+.control .iconfont {
+    font-size: 50px;
+    color: red;
+}
+.progress{
+    position: absolute;
+    left: 50%;
+    bottom: 200rpx;
+    z-index: 100;
+    width:90%;
+    transform: translateX(-50%);
+}

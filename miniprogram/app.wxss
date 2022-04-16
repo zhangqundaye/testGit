@@ -1,0 +1,4 @@
+@import 'iconfont.wxss';
+page {
+  box-sizing: border-box;
+}

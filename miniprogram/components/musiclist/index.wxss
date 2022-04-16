@@ -1,0 +1,53 @@
+.container {
+    width: 100%;
+    height: 50px;
+    display: grid;
+    grid-template: 1fr 1fr/60px 1fr;
+    grid-template-areas: "a b"
+        "a c";
+    overflow: hidden;
+    margin-top: 10px;
+    box-sizing: border-box;
+    color: #808080;
+}
+
+.index {
+    justify-self: center;
+    align-self: center;
+    grid-area: a;
+}
+
+.name {
+    grid-area: b;
+    display: flex;
+    align-self: center;
+    width: 600rpx;
+}
+
+.name-music {
+    font-weight: bold;
+    color: black;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.name-film {
+    flex:1;
+    margin-left: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+
+.autor {
+    grid-area: c;
+    align-self: center;
+    font-size: 0.5em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 600rpx;
+
+}

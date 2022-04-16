@@ -1,0 +1,12 @@
+<swiper class="swiper" autoplay="{{true}}" indicator-dots="{{true}}">
+    <block wx:for="{{imgUrl}}" wx:key="id">
+        <swiper-item>
+            <image class="swiper-img" src="{{item.url}}" mode="widthFix"></image>
+        </swiper-item>
+    </block>
+</swiper>
+<view class="music-box" bindtap="getMusiclist">
+    <block wx:for="{{musicInfo}}" wx:key="id">
+        <v-music musicInfo="{{item}}" data-id="{{item.id}}" />
+    </block>
+</view>

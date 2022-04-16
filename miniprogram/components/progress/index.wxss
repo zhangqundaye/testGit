@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.bar {
+    flex: 8;
+}
+
+.text {
+    flex: 1;
+    color:white;
+}

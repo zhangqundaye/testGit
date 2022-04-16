@@ -1,0 +1,8 @@
+<view class="container">
+    <image class="pic-url" src="{{musicInfo.picUrl}}"></image>
+    <text class="music-name">{{musicInfo.name}}</text>
+    <view class="play-count">
+        <image src="../../images/erji.png"></image>
+        <text>{{playCount}}</text>
+    </view>
+</view>

@@ -1,0 +1,15 @@
+<view class="container">
+  <!-- 头部 -->
+  <view class="header">
+    <!-- 发布图标 -->
+    <view class="publish-container" bindtap="onPublish">
+      <icon class="iconfont icon-fabu"></icon>
+    </view>
+    <view class="search-container">
+      <v-search />
+    </view>
+  </view>
+  <!-- 弹出层 -->
+  <v-popup show="{{show}}" content="请授权" bind:getUserProfile="getUserProfile"/>
+
+</view>

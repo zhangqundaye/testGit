@@ -1,0 +1,19 @@
+.container{
+  height: 100vh;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20rpx 0;
+  justify-content: space-between;
+  padding-left: 20rpx;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  background-color: white;
+}
+.icon-fabu{
+  font-size: 50rpx;
+}
